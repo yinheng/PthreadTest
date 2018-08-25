@@ -24,7 +24,7 @@
 #include <jni.h>
 #include "xhook.h"
 
-#define JNI_API_DEF(f) Java_com_famgy_xhook_NativeHandler_##f
+#define JNI_API_DEF(f) Java_com_example_haoguo_pthreadtest_xhook_NativeHandler_##f
 
 JNIEXPORT jint JNI_API_DEF(refresh)(JNIEnv *env, jobject obj, jboolean async)
 {
